@@ -1,0 +1,15 @@
+import java.util.*;
+class ListTest
+{
+	public static void main(String[] args)
+	{
+		List list=new ArrayList();
+		list.add(10);
+		list.add("saran");
+		
+		for(Integer s:list)
+			System.out.println(Integer(s));
+		
+	}
+
+}
